@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/blueberries.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <title>Extreme Candy</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Xtreme</a></li>
+                    <li><a href="#nutritional">Nutritional information</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <header>
+
+
+    <main>
+        <section id="home">
+            <h1>Xtreme Blueberry - Chupa Chups</h1>
+            <h2>Discover the Intensity of Xtreme Blueberry!</h2>
+            <p>Xtreme Blueberry candies from Chupa Chups will take you on a unique and intensely flavored journey. The
+                perfect combination of sweetness and tartness will make you savor every bite.</p>
+            <img src="img/Dulce.jpg" alt="Xtreme Blueberry Image">
+        </section>
+
+        <section id="about">
+            <h2>Xtreme Blueberry Features</h2>
+            <ul>
+                <li>Intense blueberry flavor</li>
+                <li>Sweet and tangy at the same time</li>
+                <li>Individually wrapped for on-the-go enjoyment</li>
+                <li>Colorful and attractive packaging</li>
+                <li>Perfect for flavor enthusiasts</li>
+            </ul>
+        </section>
+
+        <section id="nutritional">
+            <h2>Nutritional information</h2>
+            <p>Extreme blueberry, Sour fruit candies with a sugar coating.</p>
+
+            <p>Brand: Chupa chups.</p>
+
+            <p>About the Product: Extreme Mogul Gummies. Assorted fruit sour candies with a sugar coating.</p>
+
+            <p>Ingredients: Syrup, sugars, colors, flavorings, gelatin, soy, citric acid.</p>
+
+            <p>Nutritional Value: Portion 100 g; Energetic Value: 329 kcal = 1402 kJ, Carbohydrates: 78 g, Sugars: 59 g,
+                Proteins: 5.1g, Total Fats: 0g, Saturated Fats: 0g.</p>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <h2>Gallery</h2>
+            <p>The best blueberry flavor you've ever tasted before</p>
+    
+            <div class="row">
+                <div class="gallery-col">
+                    <img src="img/dulceWithoutBox.jpg" alt="image 1">
+                    <div class="layer">
+                        <h3>Delicius</h3>
+                    </div>
+                </div>
+                <div class="gallery-col">
+                    <img src="img/Dulce.avif" alt="image 2">
+                    <div class="layer">
+                        <h3>Taste</h3>
+                    </div>
+                </div>
+                <div class="gallery-col">
+                    <img src="img/XtremeDulces.jpg" alt="image 3">
+                    <div class="layer">
+                        <h3>Incredible</h3>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <section class="footer">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <p>All rights reserved <i class="fa-regular fa-copyright"></i></p>
+            </section>
+        </section>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
